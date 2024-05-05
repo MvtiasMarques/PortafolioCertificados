@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+.profile-picture {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-picture {
+      max-width: 150px; 
+    }
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+  }
+  
+  .card:hover {
+    transform: scale(1.4);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 767px) {
+    .card-img-top {
+      height: 170px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card-img-top {
+      height: 200px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-img-top {
+      height: 300px;
+    }
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }

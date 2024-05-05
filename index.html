@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio del Desarrollador</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificates">Certificados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="bg-light py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="Foto1.jpeg" alt="Desarrollador" class="img-fluid rounded-circle mb-4 mb-md-0 profile-picture">
+          </div>
+          <div class="col-md-6">
+            <h1>Bienvenido al Portafolio de <br>Matías Ignacio Marqués Ferrada</h1>
+            <p class="lead">Desarrollador Full Stack JAVA con conocimientos en HTML, <br>CSS, JavaScipt, SQL, Git, GiHub y Linux con amplia experiencia <br>como Desarrollador Freelance.</p>
+            <a href="https://www.linkedin.com/pub/dir?firstName=Matias+ignacio&lastName=Marqu%C3%A9s+Ferrada&trk=people-guest_people-search-bar_search-submit" class="btn btn-primary" target="_blank">Ver Perfil de LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Certificados</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="JAVAfullstack.png" class="card-img-top" alt="FULL STACK JAVA">
+                        <div class="card-body">
+                            <h5 class="card-title">FULL STACK JAVA</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="CSSav.png" class="card-img-top" alt="CSS AVANZADO">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS AVANZADO</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="gitandgihub.png" class="card-img-top" alt="Bases de GIT, GIHUB">
+                        <div class="card-body">
+                            <h5 class="card-title">Bases de GIT, GIHUB</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-200">
+                        <img src="desarolloweb.png" class="card-img-top" alt="Introduccion al Desarrollo WEB">
+                        <div class="card-body">
+                            <h5 class="card-title">Introduccion al Desarrollo WEB</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2024 Portafolio de Matías Ignacio Marqués Ferrada. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
